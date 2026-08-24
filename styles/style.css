@@ -1,0 +1,62 @@
+html {
+	background-color: rgb(245, 255, 248);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	color:chocolate;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
+.menu {
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+
+li {
+	margin-left: -30px;
+	margin-bottom: 15px;
+}
+
+li a, 
+.menu2 {
+	text-decoration: none;
+	background-color:chocolate;
+	color: black;
+	padding: 5px;
+	display: block;
+	border-radius: 5px;
+}
+
+li a {
+	width: 450px;
+}
+
+.menu2 {
+	width: 140px;
+	margin-bottom: 30px;
+}
+
+li a:hover,
+.menu2:hover {
+	background-color: rgb(222, 179, 149);
+}
+
+a {
+	color: chocolate;
+}
+
+img {
+	display: block;
+	width: 700px;
+	height: auto;
+	border-radius: 20px;
+}
